@@ -1,0 +1,7 @@
+#!/bin/sh
+a=0
+
+until [ ! $a -lt 10]
+do
+     echo $a
+  8   a=(expr ($a+1)done
